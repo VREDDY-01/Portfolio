@@ -23,7 +23,7 @@ const greeting = {
   username: "Vishnu Teja",
   title: "Hello I am Vishnu Teja",
   subTitle: emoji(
-    "A passionate Programmer, Full Stack Web Developer and Tech Enthusiast."
+    "A passionate Programmer, Full Stack Web Developer and Devops Enthusiast."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ziZLqbV3x5bNrX1rFUtuBQJBK0XGsb1E/view?usp=sharing", // Set to empty to hide the button
@@ -93,13 +93,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "Go",
-      fontAwesomeClassname: "fab fa-google"
+      skillName: "Genkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
 
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Docker",
+      fontAwesomeClassname: "fa-brands fa-docker"
     },
     {
       skillName: "sql-database",
@@ -184,6 +184,10 @@ const techStack = {
     {
       Stack: "Frontend/Design",
       progressPercentage: "70%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Devops",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section
