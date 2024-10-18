@@ -93,7 +93,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "Genkins",
+      skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
     },
 
