@@ -1,1 +1,117 @@
-{"data":{"user":{"name":"K Vishnu Teja","bio":"Hii I am Web Developer!!!","avatarUrl":"https://avatars.githubusercontent.com/u/54312804?u=605ff3d52713aa5ba0e7b7ac41a875cf9017422b&v=4","location":"Raichur","pinnedItems":{"totalCount":6,"edges":[{"node":{"name":"simon-game.github.io","description":"The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It's fast-paced play, with lights and sounds that can challenge you. Experience the fun as you repeat the patterns and advance to higher levels.","forkCount":0,"stargazers":{"totalCount":2},"url":"https://github.com/VREDDY-01/simon-game.github.io","id":"R_kgDOIwrMAg","diskUsage":95,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"College_Management_System","description":null,"forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/VREDDY-01/College_Management_System","id":"R_kgDOKxRUEw","diskUsage":299,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"Dice-game.github.io","description":null,"forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/VREDDY-01/Dice-game.github.io","id":"R_kgDOIv17KA","diskUsage":15,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"Password-Generator.github.io","description":"Generates a strong passwords with the defined length and hav a option of copying it.","forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/VREDDY-01/Password-Generator.github.io","id":"R_kgDOIy0orQ","diskUsage":4,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"Food-Delivery-System","description":"It is backend application for managing the API's of food delivery system.","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/VREDDY-01/Food-Delivery-System","id":"R_kgDOKmwsnQ","diskUsage":80,"primaryLanguage":{"name":"Java","color":"#b07219"}}},{"node":{"name":"InstaBackend","description":null,"forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/VREDDY-01/InstaBackend","id":"R_kgDOKkpijg","diskUsage":19,"primaryLanguage":{"name":"Java","color":"#b07219"}}}]}}}}
+{
+    "data": {
+        "user": {
+            "name": "K Vishnu Teja",
+            "bio": "Hii I am Web Developer!!!",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/54312804?u=605ff3d52713aa5ba0e7b7ac41a875cf9017422b&v=4",
+            "location": "Raichur",
+            "pinnedItems": {
+                "totalCount": 6,
+                "edges": [
+                    {
+                        "node": {
+                            "name": "simon-game.github.io",
+                            "description": "The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It's fast-paced play, with lights and sounds that can challenge you. Experience the fun as you repeat the patterns and advance to higher levels.",
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 2
+                            },
+                            "url": "https://github.com/VREDDY-01/simon-game.github.io",
+                            "id": "R_kgDOIwrMAg",
+                            "diskUsage": 95,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "College_Management_System",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/VREDDY-01/College_Management_System",
+                            "id": "R_kgDOKxRUEw",
+                            "diskUsage": 299,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Dice-game.github.io",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/VREDDY-01/Dice-game.github.io",
+                            "id": "R_kgDOIv17KA",
+                            "diskUsage": 15,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Password-Generator.github.io",
+                            "description": "Generates a strong passwords with the defined length and hav a option of copying it.",
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/VREDDY-01/Password-Generator.github.io",
+                            "id": "R_kgDOIy0orQ",
+                            "diskUsage": 4,
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Food-Delivery-System",
+                            "description": "It is backend application for managing the API's of food delivery system.",
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/VREDDY-01/Food-Delivery-System",
+                            "id": "R_kgDOKmwsnQ",
+                            "diskUsage": 80,
+                            "primaryLanguage": {
+                                "name": "Java",
+                                "color": "#b07219"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "InstaBackend",
+                            "description": null,
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 0
+                            },
+                            "url": "https://github.com/VREDDY-01/InstaBackend",
+                            "id": "R_kgDOKkpijg",
+                            "diskUsage": 19,
+                            "primaryLanguage": {
+                                "name": "Java",
+                                "color": "#b07219"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -47,6 +47,7 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
+                <Button text="My Blogs & Work" newTab={true} href="https://drive.google.com/drive/folders/1dilHFFx-Lxyg3APIpVXF6n2S5pqBDehv?usp=sharing" />
               </div>
             </div>
           </div>

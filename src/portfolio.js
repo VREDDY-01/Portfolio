@@ -23,7 +23,7 @@ const greeting = {
   username: "Vishnu Teja",
   title: "Hello I am Vishnu Teja",
   subTitle: emoji(
-    "A passionate Programmer, Full Stack Web Developer and Devops Enthusiast."
+    "A passionate Programmer, AWS Developer, Full Stack Web Developer and Devops Enthusiast."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ziZLqbV3x5bNrX1rFUtuBQJBK0XGsb1E/view?usp=sharing", // Set to empty to hide the button
@@ -50,32 +50,43 @@ const skillsSection = {
   subTitle:
     "PASSIONATE LEARNER, INNOVATIVE THINKER, AND CREATIVE PROBLEM SOLVER.",
   skills: [
-    emoji("⚡ Proficient in Data Structures and Algorithms."),
+    emoji("⚡ Proficient in Development, Deployments and managing Infrastructure."),
     emoji(
-      "⚡ Hands-on experience in building web applications with diverse technology stacks."
+      "⚡ Hands-on experience in building web applications with diverse technology stacks and deploying the apps to the public facing on AWS Cloud"
     ),
     emoji(
-      "⚡ Possesses a strong grasp of fundamental principles in Computer Science."
+      "⚡ Possesses a strong grasp of fundamental principles in Computer Networks and Infra side knowledge on Cloud."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
+softwareSkills: [
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "Jenkins",
+    fontAwesomeClassname: "fab fa-jenkins"
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fa-brands fa-docker"
+  },
+  {
+    skillName: "Terraform",
+    fontAwesomeClassname: "fa-solid fa-cloud"
+  },
+  {
+    skillName: "Kubernetes",
+    fontAwesomeClassname: "fa-solid fa-dharmachakra"
+  },
+  {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -93,15 +104,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
-    },
-
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fa-brands fa-docker"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -116,10 +118,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
     },
 
   ],
@@ -174,7 +172,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming",
+      Stack: "Deployment",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Devops",
       progressPercentage: "90%"
     },
     {
@@ -185,13 +187,9 @@ const techStack = {
       Stack: "Frontend/Design",
       progressPercentage: "70%" //Insert relative proficiency in percentage
     },
-    {
-      Stack: "Devops",
-      progressPercentage: "80%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section
-};
+    ],
+    displayCodersrank: false // Set true to display codersrank badges section
+  };
 
 // Work experience section
 
@@ -199,10 +197,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Cloud Operations Support Engineer",
+      company: "Operisoft Technologies Ltd",
+      companylogo: require("./assets/images/operisoftlogo.png"),
+      date: "Sep 2023 – Present",
+      desc: "Achieved Expertise in cloud infrastructure, automation, DevOps, and security with hands-on experience in AWS, Kubernetes, and CI/CD.",
+      descBullets: [
+        "Set up and managed AWS EKS clusters, EC2 SUSE servers with Samba, and automated CloudWatch alarm configurations using Python for efficient monitoring.",
+        "Implemented CloudWatch alarms for CPU, memory, and disk utilization, tracked AWS access key usage, and restricted key access based on IP ranges for security for over 50 accounts of our customers.",
+        "Built and optimized CI/CD pipelines using Jenkins, Docker, and Kubernetes, ensuring seamless deployment and scalability of cloud applications.",
+        "Deployed Prometheus and Grafana for AWS EKS node monitoring, enabling real-time performance insights and proactive issue resolution.",
+        "Set up AWS Lambda and CloudWatch log-based monitoring to track AWS events, access key usage, and automate responses for security and operational efficiency.",
+        "Worked on integrating AWS services with on-premises environments and hybrid cloud solutions for seamless workload migration and interoperability.",
+        "and Much More.."
+      ]
+    },
+    {
       role: "Apprentice",
       company: "Geekster",
       companylogo: require("./assets/images/geeksterlogo.jpg"),
-      date: "Jan 2023 – Present",
+      date: "Jan 2023 – Aug 2024",
       desc: "Achieved expertise in DSA & Development skills by successfully solving over 300 coding questions on the Geekster platform.",
       descBullets: [
         "Achieved expertise in DSA by successfully solving over 300 coding questions on the Geekster platform.",
@@ -240,6 +254,19 @@ const achievementSection = {
   subtitle:"",
 
   achievementsCards: [
+    {
+      title: "AWS Certified Developer Associate",
+      subtitle:
+        "Achieved AWS Certified Developer – Associate, demonstrating expertise in building, deploying, and optimizing cloud-native applications on AWS with a strong focus on scalability and security.",
+      image: require("./assets/images/AWSCerified.png"),
+      imageAlt: "AWS Developers Certificate Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/8be88ea5-67aa-40d2-81a3-8b3756ae7527/public_url"
+        }
+      ]
+    },
     {
       title: "Web Development Bootcamp by London App Brevery",
       subtitle:
