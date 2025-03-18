@@ -313,13 +313,6 @@ const contactInfo = {
   email_address: "vreddy2300@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "VishnuTeja1910", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
