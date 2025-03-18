@@ -329,6 +329,5 @@ export {
   achievementSection,
   blogSection,
   contactInfo,
-  twitterDetails,
   isHireable
 };
