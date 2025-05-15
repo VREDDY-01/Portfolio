@@ -255,6 +255,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "AWS Certified Sysops Associate",
+      subtitle:
+        "Achieved AWS Certified SysOps Administrator – Associate, showcasing proficiency in deploying, managing, and operating scalable, highly available, and secure systems on AWS with a strong emphasis on monitoring, automation, and operational efficiency.",
+      image: require("./assets/images/AWSCerifiedSysops.png"),
+      imageAlt: "AWS Sysops Certificate Logo",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/1df3de39-7350-46bb-a300-ac04a4daaeb7/public_url"
+        }
+      ]
+    },
+    {
       title: "AWS Certified Developer Associate",
       subtitle:
         "Achieved AWS Certified Developer – Associate, demonstrating expertise in building, deploying, and optimizing cloud-native applications on AWS with a strong focus on scalability and security.",
